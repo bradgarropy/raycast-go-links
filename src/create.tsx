@@ -1,16 +1,17 @@
 import {
-    Form,
-    ActionPanel,
     Action,
+    ActionPanel,
     Clipboard,
+    Form,
+    popToRoot,
     showToast,
     Toast,
-    popToRoot,
 } from "@raycast/api"
 import {FormValidation, useForm, useLocalStorage} from "@raycast/utils"
-import {Link, LinkForm} from "./types"
 import {useState} from "react"
-import {createGoUrl, createLink} from "./links"
+
+import {createGoUrl, createLink} from "~/links"
+import type {Link, LinkForm} from "~/types"
 
 const Command = () => {
     const {

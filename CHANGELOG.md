@@ -1,6 +1,8 @@
 # Changelog
 
-## [1.0.0][1.0.0] - 2024-12-25
+<!-- https://keepachangelog.com/ -->
+
+<!-- ## [1.0.0][1.0.0] - 2024-12-25
 
 ### Added
 
@@ -24,10 +26,12 @@
 
 ### Security
 
--   TODO
+-   TODO -->
 
-## [0.1.0][0.1.0] - 2024-09-19
+## [0.0.1][0.0.1] - 2024-09-19
+
+### Added
 
 -   Initial release
 
-[0.1.0]: https://github.com/bradgarropy/raycast-go-links
+[0.0.1]: https://github.com/bradgarropy/raycast-go-links/releases/tag/v0.0.1

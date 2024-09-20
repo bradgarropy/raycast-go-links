@@ -1,3 +1,3 @@
-# go
+# Go Links
 
-Go link finder
+Create, manage, search, and quickly open your go links.

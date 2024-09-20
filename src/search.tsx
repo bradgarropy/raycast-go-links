@@ -1,8 +1,9 @@
-import {ActionPanel, Action, List, Icon} from "@raycast/api"
+import {Action, ActionPanel, Icon, List} from "@raycast/api"
 import {useLocalStorage} from "@raycast/utils"
 import {useState} from "react"
-import {Link} from "./types"
-import {deleteLink} from "./links"
+
+import {deleteLink} from "~/links"
+import type {Link} from "~/types"
 
 const Command = () => {
     const {

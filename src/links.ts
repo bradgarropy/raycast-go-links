@@ -1,5 +1,6 @@
-import {Link} from "./types"
 import crypto from "node:crypto"
+
+import type {Link} from "~/types"
 
 const createGoUrl = (name: Link["name"]) => {
     return `http://go/${name}`
